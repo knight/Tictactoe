@@ -1,3 +1,6 @@
+import sys
+import os
+sys.path[0]='..' + os.sep
 import exceptions
 import unittest
 import tictactoe
